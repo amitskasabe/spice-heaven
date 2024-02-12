@@ -1,0 +1,65 @@
+#hero {
+    height: 90vh;
+    background: rgb(255,110,110);
+    background: radial-gradient(circle, rgba(255,110,110,1) 0%, rgba(147,0,0,1) 63%);
+}
+
+.hero-content{
+   /* display: grid;
+   grid-template-columns: 1fr 3fr 1fr; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 60vh;
+   position: relative;
+}
+.hero .burger{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    z-index: 9999;
+}
+
+.hero-text{
+    font-size: 40px;
+    font-family: "Kaushan Script", cursive;
+
+}
+/* animation  */
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+#delivery-partner{
+    position: absolute;
+    left:0;
+    top: 40%;
+    height: 90%;
+    width: 25%;
+}
+#ingradients{
+    position: absolute;
+    left:70%;
+    top: 25%;
+    height: 60%;
+    width: 25%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    font-family: "Protest Revolution", sans-serif;
+    
+}

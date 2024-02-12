@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Protest+Revolution&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+/* color scheme  */
+:root{
+    --red : #eb2f06;
+    --yellow : #f6b93b;
+    --gray : lightgray;
+    --font : "Noto Sans";
+}
+body {
+    font-family: var(--font);
+}
+li {
+    list-style-type: none;
+}
+/* body {
+    background-color: var(--red);
+} */
+
+
+.flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .decoration-none {
+    text-decoration: none;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .lowercase {
+    text-transform: lowercase;
+  }
+  
+  .weight-bold {
+    font-weight: bold;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .campleCase {
+    text-transform: capitalize;
+  }
+  
+  .space-10 {
+    margin: 0px 10px;
+  }
+  
+  .space-p-x-10 {
+    padding: 0px 40px;
+  }
+.text-white{
+    color: white;
+}
